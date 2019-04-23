@@ -1,0 +1,254 @@
+
+
+.ico_banner{
+	background-repeat: no-repeat;
+    background-position-x: 28em;
+    background-position-y: 100%;
+
+	&_columns{
+		padding-top: 169px;
+		padding-bottom: 80px;
+	}
+	&_column1{
+		padding-top: 80px;
+		max-width: 550px;
+	}
+	&_titulo{
+		font-weight: 700;
+    	font-size: 35px;
+    	line-height: 1.4;
+    	padding-bottom: 17px;
+    	color: #061233;
+	}
+	&_text{
+		font-size: 15px;
+    	font-weight: 600;
+    	padding-bottom: 44px;
+    	color: #707070;
+    	line-height: 1.4;
+	}
+
+	&_column2{
+		text-align: right;
+		padding-right: 69px;
+	}
+
+	&_img{
+		width: 366px;
+	}
+
+}
+
+
+
+.exito{
+
+	&_titulo{
+	    font-size: 33px;
+	    font-weight: 700;
+	    text-align: center;
+	    margin-top: -13px;
+	}
+	&_columns1{
+		    padding-top: 68px;
+	}
+
+	&_card-texto{
+		color: #707070;
+		font-family: "Circular Std";
+		font-size: 13.5px;
+		font-weight: 300;
+	}
+	&_card{
+		cursor: pointer;
+		border-radius: 13px;
+		box-shadow: 0 3px 12px rgba(10,10,10,.2), 0 0 0 0 rgba(10,10,10,.11);
+	}
+
+	&_card-contenido{
+	    -webkit-filter: grayscale(100%);
+	    filter: grayscale(100%);
+	    opacity: .5;
+	    transition-property: all;
+	    transition-duration: 0.3s;
+	    transition-timing-function: ease-in;
+	}
+	&_card-contenido:hover{
+		-webkit-filter: grayscale(0%);
+	    filter: grayscale(0%);
+	    opacity: 1;
+	    transition-property: all;
+	    transition-duration: 0.3s;
+	    transition-timing-function: ease-in;
+	}
+	&_columns2{
+		padding-top: 56px;
+		margin-bottom: -7px;
+	}
+
+
+}
+
+
+.crear{
+	background-color: #b1d100;
+
+	&_titulo{
+			color: white;
+			font-size: 33px;
+	    font-weight: 700;
+	    text-align: center;
+	}
+	&_subtitulo{
+		padding-top: 13px;
+		color: #707070;
+		font-family: "Circular Std";
+		font-size: 20px;
+		font-weight: 700;
+	}
+	&_columns{
+		padding: 106px 14% 40px;
+		margin-bottom: -8px;
+	}
+	&_column{
+		text-align: center;
+	}
+	&_card-contenido{
+		border-radius: 13px;
+		box-shadow: 0 3px 12px rgba(10,10,10,.2), 0 0 0 0 rgba(10,10,10,.11);
+	}
+	&_imagen{
+		margin-top: -48px;
+	}
+
+	&_numero{
+		text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+		color: #f5ffbc;
+		font-family: "Circular Std";
+		font-size: 100px;
+		font-weight: 700;
+		margin-top: -100px;
+		margin-right: -35px;
+	}
+	&_card_header{
+		display: -webkit-inline-box;
+	}
+	&_btn{
+    	background-color: #FFF;
+    }
+}
+
+
+.testimonios{
+		&_titulo{
+			font-size: 33px;
+	    font-weight: 700;
+	    text-align: center;
+	}
+	&_contenido{
+		color: #737373;
+		padding: 41px 150px 0 150px;
+		text-align: center;
+	}
+	&_texto{
+		padding-top: 20px;
+	}
+	&_info{
+		padding-top: 20px;
+		font-weight: 600;
+	}
+	&_img{
+		display: -webkit-inline-box !important;
+	}
+
+}
+
+.ico{
+	background-color: #061233 !important;
+	&_submit{
+		background-color: #b1d100 !important; 
+	}
+}
+
+.testimonios .slick-prev:before{
+	margin-left: 21px;
+	color: #b1d100;
+	font-size: 60px;
+}
+
+.testimonios .slick-next:before {
+	margin-left: -85px;
+	color: #b1d100;
+	font-size: 60px;
+}
+
+.exito-slide{
+	padding-top: 45px;
+}
+
+.exito .slick-dots {
+	margin-bottom: -22px;
+}
+
+.exito .slick-dots li button:before {
+	font-size: 12px;
+	color: #00b9b1;
+	opacity: .45;
+}
+
+.exito .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #00b9b1;
+}
+
+
+@media only screen and (max-width: 1000px) and (min-width: 769px){
+    .header__logo {
+      max-width: 150px;
+      margin-left: 66px;
+   }
+}
+
+
+@media only screen and (min-width: 1000px){
+	.exito .exito-slide{
+		display: none;
+	}
+}
+
+
+@media only screen and (max-width: 1000px){
+	.exito .exito_columns1, .exito .exito_columns2{
+		display: none ;
+	}
+	.testimonios .slick-prev, .testimonios .slick-next {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 1150px){
+
+	.ico_banner_column2 {
+	   
+	   padding-right: 0px;
+	}
+
+}
+
+section .ico_btn{
+	background-color: #beec00;
+	color: #073898;
+}
+
+.ico_btn em, .ico_btn em i:before {
+    background-color: #073898;
+}
+.crear_btn em i:after {
+    background-color: #fff;
+}
+.crear_btn em, .crear_btn em i:before, {
+    background-color: #061233;
+}
+.exito_btn em, .exito_btn em i:before, {
+    background-color: #073898;
+}
